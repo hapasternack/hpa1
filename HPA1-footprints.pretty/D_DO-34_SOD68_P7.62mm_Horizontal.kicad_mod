@@ -1,0 +1,250 @@
+(footprint "D_DO-34_SOD68_P7.62mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=3.04*1.6mm^2, https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
+	(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 7.62mm  length 3.04mm diameter 1.6mm")
+	(property "Reference" "D4"
+		(at 9.652 0 0)
+		(layer "F.SilkS")
+		(uuid "4f235760-713d-4fa1-baa2-24291eb289d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4.7V"
+		(at 3.81 1.92 0)
+		(layer "F.Fab")
+		(uuid "e750ca67-b3a7-4ae6-99f6-5c92d57bb527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebad1761-9b43-4f3b-8f97-f3d018718dcc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7178180a-c0cf-4eda-93d6-818aa10de112")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.99 0)
+		(end 2.17 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdb4cc9f-a360-4e7b-a72e-bee60bd8d668")
+	)
+	(fp_line
+		(start 2.626 -0.92)
+		(end 2.626 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17af89d9-0059-4bd9-a54c-3046dfc92ff4")
+	)
+	(fp_line
+		(start 2.746 -0.92)
+		(end 2.746 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c66af25a-cce7-4720-8128-7db72ac29b83")
+	)
+	(fp_line
+		(start 2.866 -0.92)
+		(end 2.866 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49273dd8-b015-48ba-becb-f4ae53a5a3cb")
+	)
+	(fp_line
+		(start 6.63 0)
+		(end 5.45 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee177a8e-4acc-4a2c-9309-2d4576d923ee")
+	)
+	(fp_rect
+		(start 2.17 -0.92)
+		(end 5.45 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6b671e5c-e421-48cf-90fa-48df12c759c3")
+	)
+	(fp_rect
+		(start -1 -1.05)
+		(end 8.63 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "08bcc7b3-d29e-49e0-96ca-a5c838cc732f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2.29 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fcb646e-9ebe-421a-bf61-2e3a572e9f6a")
+	)
+	(fp_line
+		(start 2.646 -0.8)
+		(end 2.646 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84332154-797d-4e03-a93d-bb4a4a0e3b66")
+	)
+	(fp_line
+		(start 2.746 -0.8)
+		(end 2.746 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ad301eb-e35f-4c03-bd89-1051e50ab04f")
+	)
+	(fp_line
+		(start 2.846 -0.8)
+		(end 2.846 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7549b164-bfad-433c-9d6b-2c6d0704faad")
+	)
+	(fp_line
+		(start 7.62 0)
+		(end 5.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a739fd82-043d-4b98-8d03-381238b4e02a")
+	)
+	(fp_rect
+		(start 2.29 -0.8)
+		(end 5.33 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "750c39e1-3f85-4de2-aeb8-9dd1600a19a5")
+	)
+	(fp_text user "K"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "2d5b5496-4461-4296-a09a-38384256b1d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.038 0 0)
+		(layer "F.Fab")
+		(uuid "411c4c32-a525-4d92-82f7-451aad3e917b")
+		(effects
+			(font
+				(size 0.608 0.608)
+				(thickness 0.0912)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "b5d88064-a5d9-4b9e-b560-bd679ec4a6a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.166667)
+		(uuid "0a42aba6-bd26-4ce6-8437-a68c78e68042")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be69dedd-cb7f-455e-b095-1f450a6a8051")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P7.62mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

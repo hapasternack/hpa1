@@ -1,0 +1,102 @@
+(footprint "1-pad-wire-connector-22-ga"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J***"
+		(at 0 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "8aeada6b-18b1-40d9-83da-ebb2b4804621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1-pad-wire-connector-22-ga"
+		(at 0 4.191 0)
+		(layer "F.Fab")
+		(uuid "0c5244db-1fe9-493d-9647-3ed9d80fe22f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3aa7c94-2291-409a-bdde-baac436f6fc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28bda47-e358-4b3f-b9e4-cf525fc6a81f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.397 -1.397)
+		(end 1.397 -1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b51a349d-a74b-4b44-92a6-deb8a3e50e63")
+	)
+	(fp_line
+		(start -1.397 1.397)
+		(end -1.397 -1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcbfa742-7331-4b8a-8f43-a0d1a5d1507d")
+	)
+	(fp_line
+		(start 1.397 -1.397)
+		(end 1.397 1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e795503-348f-48d0-b503-cb7dc4e1ae41")
+	)
+	(fp_line
+		(start 1.397 1.397)
+		(end -1.397 1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "839c0752-c057-4938-9bef-36fd1351e158")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.25 2.25)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4fb1443-3b74-4815-a349-f7b7df6b6f11")
+	)
+	(embedded_fonts no)
+)

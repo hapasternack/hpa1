@@ -52,7 +52,40 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|102335000|116020000|00000000-0000-0000-0000-000061270e3f|00000000-0000-0000-0000-0000612a8ee2",
+          ""
+        ],
+        [
+          "courtyards_overlap|102335000|121735000|00000000-0000-0000-0000-0000611f56a0|00000000-0000-0000-0000-0000611f5706",
+          ""
+        ],
+        [
+          "silk_overlap|102180000|120545000|8d6c6393-7e11-4a8e-9f78-7078a0b4a7aa|f10c49b8-1a21-4765-bd5f-d20c45710020",
+          ""
+        ],
+        [
+          "silk_overlap|102290000|122660000|74056ecd-fa2f-4d44-877d-051cb7ee1204|8d1ae51a-6cb4-40cb-b03a-0e1aeed06a87",
+          ""
+        ],
+        [
+          "silk_overlap|118618000|105310000|23b8ae6c-9842-4643-84b4-81c4312e27bd|65818fb3-e8a6-439f-a550-32c020936a18",
+          ""
+        ],
+        [
+          "silk_overlap|118618000|105310000|23b8ae6c-9842-4643-84b4-81c4312e27bd|e4c5263f-8e32-49cc-8387-82f5d96cb598",
+          ""
+        ],
+        [
+          "silk_overlap|121412000|105310000|23b8ae6c-9842-4643-84b4-81c4312e27bd|37392214-76cf-4476-96c4-3e4b124931f9",
+          ""
+        ],
+        [
+          "silk_overlap|121412000|108050000|23b8ae6c-9842-4643-84b4-81c4312e27bd|d0bbb0d5-743b-47e8-a809-3375aa7d04d1",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -841,14 +874,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

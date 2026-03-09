@@ -1,0 +1,110 @@
+(footprint "2-pad-wire-connector-22-ga"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J***"
+		(at 2.54 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "1dce8575-c42f-4cb9-8cf4-02b7ef5336f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2-pad-wire-connector-22-ga"
+		(at 2.54 4.191 0)
+		(layer "F.Fab")
+		(uuid "70b80b4e-c304-414d-a3b5-f54a928a455d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c409f9b5-8be9-45da-bd8a-92970350fb9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b010185-458e-4440-91a3-bda8779a6958")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.397 -1.397)
+		(end 6.477 -1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbfad95e-cec3-4629-8323-50e596a62cae")
+	)
+	(fp_line
+		(start -1.397 1.397)
+		(end -1.397 -1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3fc4026-ba7a-4ec9-9a18-4605237c0c9f")
+	)
+	(fp_line
+		(start 6.477 -1.397)
+		(end 6.477 1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "641571d0-8996-4a74-931c-a9692e569a34")
+	)
+	(fp_line
+		(start 6.477 1.397)
+		(end -1.397 1.397)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79eba30a-9b71-4093-b550-4c5df3838937")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.24 2.24)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c70d3d10-22bb-4a03-b766-243e86e48e1b")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.25 2.25)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6fb9bd9c-cc6e-4ae8-9f9f-52cbd93363eb")
+	)
+	(embedded_fonts no)
+)

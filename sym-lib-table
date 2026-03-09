@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "HPA1-rescue")(type "KiCad")(uri "${KIPRJMOD}/HPA1-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "HPA1_symbols")(type "KiCad")(uri "${KIPRJMOD}/HPA1_symbols.kicad_sym")(options "")(descr ""))
 )
